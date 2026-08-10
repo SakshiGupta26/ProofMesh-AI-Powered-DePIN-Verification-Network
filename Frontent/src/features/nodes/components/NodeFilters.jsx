@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AppLayout = () => {
+const NodeFilters = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const AppLayout = () => {
   )
 }
 
-export default AppLayout
+export default NodeFilters

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LandingLayout = () => {
+const DashboardLayout = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const LandingLayout = () => {
   )
 }
 
-export default LandingLayout
+export default DashboardLayout
