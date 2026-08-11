@@ -6,7 +6,8 @@ const NodesPage = () => {
   return (
     <div className='w-full'>
       <div className='w-full border-b border-cyan-500'>
-        <Navbar />
+        <Navbar 
+        placeholder={'Search Node Id, IP...'}/>
       </div>
     </div>
   )

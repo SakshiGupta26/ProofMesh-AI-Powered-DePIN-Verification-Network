@@ -4,13 +4,13 @@ import WalletConnectButton from './WalletConnectButton'
 import NetworkToggle from './NetworkToggle'
 import Bellicon from '../ui/Bellicon'
 
-const Navbar = () => {
+const Navbar = ({placeholder}) => {
   return (
     <div>
       <div className='flex items-center p-2 justify-between w-full'>
       <SearchBar
-      
-        placeholder={'Search Node ID, IP...'}
+        
+        placeholder={placeholder}
       />
       <div className='flex gap-6 items-center'>
       <NetworkToggle />

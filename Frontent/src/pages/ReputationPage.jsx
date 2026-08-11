@@ -8,7 +8,8 @@ const ReputationPage = () => {
       <div className='flex w-full gap-2 items-center border-b border-cyan-500 '>
         
         <div className='flex-1'>
-          <Navbar />
+          <Navbar 
+          placeholder={"Search network..."}/>
         </div>
 
         <User

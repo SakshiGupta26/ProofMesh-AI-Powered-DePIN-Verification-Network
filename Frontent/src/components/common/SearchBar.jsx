@@ -4,7 +4,7 @@ const SearchBar = ({placeholder}) => {
   return (
     <div >
       <input 
-        className='bg-white border  border-cyan-500 p-2 focus:outline-none  placeholder-gray-500'
+        className='bg-gray-700 border  border-cyan-500 p-2 focus:outline-none  placeholder-gray-500'
         type='text'
         placeholder={placeholder}
       />
