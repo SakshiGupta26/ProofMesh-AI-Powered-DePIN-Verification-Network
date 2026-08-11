@@ -1,50 +1,49 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter } from 'react-router';
-import Home from "../pages/Home";
-import Dashboard from '../pages/Dashboard'
-import SecurityPage from '../pages/SecurityPage'
+import { createBrowserRouter } from 'react-router-dom';
+
+import Home from '../pages/Home';
+import Dashboard from '../pages/Dashboard';
+import SecurityPage from '../pages/SecurityPage';
 import ReputationPage from '../pages/ReputationPage';
 import VerificationPage from '../pages/VerificationPage';
 import NodesPage from '../pages/NodesPage';
-import NetworkPage from '../pages/NetworkPage'
+import NetworkPage from '../pages/NetworkPage';
 import MainLayout from '../layouts/MainLayout';
 
 const routes = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <MainLayout />,
     children: [
       {
-        path: "/",
+        index: true,
         element: <Home />,
       },
       {
-        path: "/dashboard",
+        path: 'dashboard',
         element: <Dashboard />,
       },
       {
-        path: "/network",
-        element: <NetworkPage />
+        path: 'network',
+        element: <NetworkPage />,
       },
       {
-        path: "/verification",
-        element: <VerificationPage />
+        path: 'verification',
+        element: <VerificationPage />,
       },
       {
-        path: "/nodes",
-        element: <NodesPage />
+        path: 'nodes',
+        element: <NodesPage />,
       },
       {
-        path: "/reputation",
+        path: 'reputation',
         element: <ReputationPage />,
       },
       {
-        path: "/security",
-        element: <SecurityPage />
+        path: 'security',
+        element: <SecurityPage />,
       },
-    ]
+    ],
   },
-])
+]);
 
-export default routes
+export default routes;

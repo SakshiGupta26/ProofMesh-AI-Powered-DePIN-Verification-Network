@@ -16,7 +16,7 @@ import Button from "../components/ui/Button";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col justify-between w-64 h-screen bg-[#080F13] text-white p-6">
+    <div className="flex flex-col justify-between w-64 h-screen bg-[#080F13] text-white p-6 border border-cyan-500">
       <div>
       <div className="flex items-center gap-2">
         <Orbit className="text-[#3AB7FF]" size={28} />
