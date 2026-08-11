@@ -1,10 +1,13 @@
 import React from 'react'
-import NodeFilters from '../features/nodes/components/NodeFilters'
+import Navbar from '../components/common/Navbar'
+
 
 const NodesPage = () => {
   return (
-    <div className='flex flex-col gap-2 p-4 w-full'>
-      <NodeFilters />
+    <div className='w-full'>
+      <div className='w-full border-b border-cyan-500'>
+        <Navbar />
+      </div>
     </div>
   )
 }
